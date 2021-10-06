@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.simple{
+    display: flex;
+    justify-content: space-between;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 70%;
+    margin: 50px auto;
+    padding: 20px; 
+    
+}
+
+    .logo{
+        margin-right: 220px;
+        color: rgb(62, 122, 233);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    nav{
+        margin: 8px;
+    }
+
+    .simple a{
+        text-decoration: none;
+        margin-left: 20px;
+        color: lightgray
+    }
+    
+    .simple a:hover{
+        color: black;
+        text-decoration: underline;
+    }
+    
+    .folio{
+        color: lightgray;
+    }
+
+    .sky{
+        display: flex;
+        justify-content: space-between;
+        font-family: Helvetica, Arial, sans-serif;
+        width: 70%;
+        margin-left: 195px;
+        padding: 20px; 
+    }
+
+    .om{
+        display: flex;
+        justify-content: space-between;
+        font-family: Helvetica, Arial, sans-serif;
+        width: 70%;
+        margin-left: 195px;
+        padding: 20px;
+    }
+
+    .tekst-om{
+        width: 50%;
+        margin-right: 135px;
+        color: lightgrey;
+    }
+
+    .billede-om{
+        width: 100%;
+    }
+
+    .img-om{
+        width: 50%;
+        margin-left: 100px;
+        border-radius: 10%;
+    }
+
+    .overskrift-om{
+        font-size: 16px;
+        color: black;
+    }
+
+    .logo-om{
+        width: 7%;
+        position:relative; left:800px; top:-70px;
+    }
+
+    .projekt1{
+        display: flex;
+        justify-content: space-between;
+        font-family: Helvetica, Arial, sans-serif;
+        width: 70%;
+        margin-left: 195px;
+        padding: 20px;
+    }
+
+    .projekt-overskrift{
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:rgb(62, 122, 233);
+        
+    }
+
+    .billede-projekt{
+        width: 100%;
+    }
+
+    .projekt-tekst{
+        width: 75%;
+    }
+
+    .img-projekt{
+        width: 50%;
+    }
+
+    .se-mere{
+        border-color: black;
+        display: inline;
+        background-color: lightsteelblue;
+    }
+
+    .projekt2{
+            display: flex;
+            justify-content: space-between;
+            font-family: Helvetica, Arial, sans-serif;
+            width: 70%;
+            margin-left: 195px;
+            padding: 20px;
+    }
+
+    .billeder-overskrift{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(62, 122, 233);
+    margin-left: 215px;
+    }
+    .billeder{
+        width: 30%;
+    }
+
+    .img-billede{
+        width: 100%;
+    }
+
+    .photoshop-billede{
+        width: 100%;
+    }
+    .photoshop-img{
+        width: 80%;
+    }
+    
+    .photoshop-img1{
+        width: 60%;
+        margin-left: 140px;
+    }
+
+    .kodning-billede{
+        width: 100%;
+    }
+
+    .kodning-img{
+        width: 80%;
+    }
+
+    .video-img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+    }
+
+    .kontaktformular{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            width: 70%;
+            margin-left: 195px;
+            padding: 20px;
+            color:rgb(62, 122, 233);
+    }
+
+    .instagram-billede{
+        width: 100%;
+    }
+
+    .instagram-img{
+        width: 50px;
+        height: 50px;
+        border-radius: 20%;
+        position: absolute;
+        top: 200px;
+        right: 400px;
+    }
+
+    .instagram-tekst{
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 250px;
+        right: 440px;
+    }
+
+    /* .send-knap{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-image: url(/Images/Logo_sky_grå.jpg);
+    } */
